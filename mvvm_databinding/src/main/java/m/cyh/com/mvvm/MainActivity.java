@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         user.userName.set("dahai");
         binding.setUser(user);
 
+        //子线程中更新View
         new Thread(new Runnable() {
             @Override
             public void run() {

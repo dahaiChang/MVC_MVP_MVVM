@@ -3,6 +3,8 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 28
 
+
+
     defaultConfig {
         applicationId "m.cyh.com.mvvm"
         minSdkVersion 19
@@ -20,7 +22,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-//    配置使用dataBinding
+
+    //    配置使用dataBinding
     dataBinding{
         enabled = true
     }
